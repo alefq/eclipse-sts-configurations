@@ -3,7 +3,7 @@ Recommended STS configurations for code formatter, checkstyle, etc.
 
 # Checkstyle
 Eclipse's checktyle plugin, differs from `checkstyle.xml` used through maven's plugin when enabling `SuppressionCommentFilter` module. `checkstyle-eclipse-STS.xml` has Eclipse STS compatible configuration.
-In order to allow checkstyle supppression, surround your code with these comments.
+In order to allow checkstyle suppression, surround your code with these comments.
 ```
 //CHECKSTYLE:OFF
 public void someMethod(String arg1, String arg2, String arg3, String arg4) {
